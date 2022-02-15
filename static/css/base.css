@@ -471,6 +471,8 @@ a.main_nav_link {
 
     .slider.active span {
         font-size: 20px;
+        text-align: center;
+        width: 250px
     }
 }
 
