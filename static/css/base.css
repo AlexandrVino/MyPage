@@ -6,7 +6,6 @@ body {
     background-image: url("https://hsto.org/webt/ht/sj/04/htsj04r8whvdjzxjmoilbdwlfac.png");
     background-attachment: fixed;
     background-position: top center;
-
 }
 
 a {
@@ -16,6 +15,7 @@ a {
 .music {
     text-decoration: underline;
 }
+
 .page {
     width: 100%;
     font-family: 'Montserrat', sans-serif !important;
@@ -98,7 +98,6 @@ a {
     border: 1px solid transparent;
     width: 150px;
     right: 0
-
 }
 
 .menu-active {
@@ -218,7 +217,6 @@ a.main_nav_link {
 
 .slider_items {
     position: relative;
-
 }
 
 .slider__control {
@@ -318,10 +316,6 @@ a.main_nav_link {
         font-size: 12px;
     }
 
-    .main_page {
-        padding-top: 50px;
-    }
-
     .container-wrapper {
         width: 100%;
         margin: 0;
@@ -364,11 +358,6 @@ a.main_nav_link {
         padding: 5px;
         border: 1px solid transparent;
         width: 150px;
-    }
-
-    .menu-active {
-        border-radius: 10px;
-        height: 190px;
     }
 
     .main_nav {
@@ -414,25 +403,16 @@ a.main_nav_link {
         width: 300px;
     }
 
-    .section_title span {
-        padding: 0 10px;
-    }
-
     .profile_img {
         width: 260px;
         height: 260px;
         margin-bottom: 20px;
-
     }
 
     .profile_img img {
         width: 260px;
         height: 260px;
         border-radius: 130px;
-    }
-
-    .my_projects {
-        margin-bottom: 20px;
     }
 
     .links {
@@ -499,10 +479,6 @@ a.main_nav_link {
         font-size: 12px;
     }
 
-    .main_page {
-        padding-top: 50px;
-    }
-
     .container-wrapper {
         width: 540px;
         margin: 0 auto;
@@ -552,10 +528,6 @@ a.main_nav_link {
         padding: 0 0 30px 0;
     }
 
-    .offer_title {
-        margin-bottom: 10px;
-    }
-
     .offer_structure {
         margin: auto;
         max-width: 200px;
@@ -581,24 +553,15 @@ a.main_nav_link {
         width: 260px;
     }
 
-    .section_title span {
-        padding: 0 10px;
-    }
-
     .profile_img {
         width: 240px;
         height: 240px;
-
     }
 
     .profile_img img {
         width: 240px;
         height: 240px;
         border-radius: 130px;
-    }
-
-    .my_projects {
-        margin-bottom: 20px;
     }
 
     .links {
@@ -793,19 +756,8 @@ a.main_nav_link {
         width: 900px;
     }
 
-    .container {
-        width: 900px;
-        min-width: 325px;
-        margin: 0 auto;
-    }
-
     .content {
         width: 800px;
-    }
-
-    .profile_img {
-        width: 336px;
-        height: 336px;
     }
 
     .profile_img img {
