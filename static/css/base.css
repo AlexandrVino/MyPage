@@ -340,6 +340,7 @@ a.main_nav_link {
     .title {
         font-size: 20px;
         font-weight: 500;
+        margin-bottom: 20px;
     }
 
     .logo_img img {
@@ -503,8 +504,8 @@ a.main_nav_link {
 
     .title {
         margin-top: 50px;
-        font-size: 15px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 700;
     }
 
     .logo_img img {
