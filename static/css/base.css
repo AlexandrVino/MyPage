@@ -469,6 +469,11 @@ a.main_nav_link {
         height: 250px;
     }
 
+    .slider span {
+        text-align: center;
+        width: 250px
+    }
+
     .slider.active span {
         font-size: 20px;
         text-align: center;
