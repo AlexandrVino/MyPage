@@ -20,10 +20,6 @@ function base() {
         change_lang()
     }
 
-    function animate(slide, start_pos, end_pos) {
-        slide.style.transform = `translate(${end_pos - start_pos + 'px'}, 0px)`
-    }
-
     function change_menu_visible() {
 
         menuContainer.classList = isOpen ? 'menu-container menu-active' : 'menu-container'
