@@ -165,6 +165,7 @@ a {
 
 .offer_title {
     margin-bottom: 10px;
+    font-size: 35px;
 }
 
 .offer_structure {
@@ -400,6 +401,7 @@ a {
     .offer_title {
         margin: 0 auto;
         text-align: center;
+        font-size: 15px;
     }
 
     .offer_structure {
@@ -567,6 +569,11 @@ a {
         margin: 0;
         font-weight: 400;
     }
+
+    .offer_title {
+        font-size: 15px;
+    }
+
 
     .offer_img {
         margin: auto;
