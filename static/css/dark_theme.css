@@ -15,17 +15,17 @@ a {
     background-color: #363636;
 }
 
-a.main_nav_link:hover {
+.main_nav_link:hover {
     font-weight: 700;
     filter: drop-shadow(0 0px 10px rgba(255, 255, 255, .8));
 }
 
-a.main_nav_link.menu:hover {
+.main_nav_link.menu:hover {
     font-weight: 700;
     filter: drop-shadow(0 0px 10px rgba(255, 255, 255, .8));
 }
 
-a.main_nav_link:visited {
+.main_nav_link:visited {
     color: #fff;
 }
 

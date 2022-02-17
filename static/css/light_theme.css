@@ -15,23 +15,23 @@ a {
     background-color: #DDDDDD;
 }
 
-a.main_nav_link:hover {
+.main_nav_link:hover {
     font-weight: 700;
     filter: drop-shadow(0 0px 10px rgba(0, 0, 0, .8));
 }
 
-a.main_nav_link.menu:hover {
+.main_nav_link.menu:hover {
     font-weight: 700;
     filter: drop-shadow(0 0px 10px rgba(0, 0, 0, .8));
 }
 
-a.main_nav_link:visited {
+.main_nav_link:visited {
     color: #000000;
 }
 
 .menu-active {
     border: 1px solid #000000;
-    background-color: #ffffff;
+    background-color: #DDDDDD;
 }
 
 /* main section content style */

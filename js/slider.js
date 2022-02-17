@@ -7,6 +7,7 @@ function base() {
     for (let i = 0; i < children.length; i++) {
         indexes[i] = i
     }
+
     indexes = [indexes[indexes.length - 1], ...indexes.slice(0, -1)]
 
     let start_time = Date.now() // старт скрипта (чтобы не дать пользователю тыкать чаще, чем проходит анимация слайдера)

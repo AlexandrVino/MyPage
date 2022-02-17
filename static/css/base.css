@@ -38,6 +38,7 @@ a {
     width: 1000px;
     margin: 0 auto;
     border-radius: 20px;
+    transition: 0.7s linear;
 }
 
 .container {
@@ -97,7 +98,12 @@ a {
     border-radius: 10px;
     border: 1px solid transparent;
     width: 150px;
-    right: 0
+    right: 0;
+    transition: 0.7s linear;
+}
+
+.menu-container .menu-button img {
+    transition: transform 0.4s;
 }
 
 .menu-active {
@@ -109,12 +115,13 @@ a {
     margin: 10px 0;
     display: flex;
     flex-wrap: wrap;
-    width: 150px;
+
     position: absolute;
     z-index: 40;
+
 }
 
-a.main_nav_link {
+.main_nav_link {
     display: block;
     cursor: pointer;
     margin: 0 auto;
@@ -124,6 +131,7 @@ a.main_nav_link {
     height: 25px;
     line-height: 25px;
     text-align: center;
+    transform: translateX(150px);
 }
 
 .menu-button {
@@ -137,6 +145,15 @@ a.main_nav_link {
     display: block;
     width: 30px;
     height: 30px;
+}
+
+.menu-active .main_nav {
+
+    transform: translateX(-150px);
+}
+
+.menu-active .menu-button img {
+    transform: rotate(90deg);
 }
 
 .content {
@@ -313,7 +330,7 @@ a.main_nav_link {
     .page {
         max-width: 539px;
         min-width: 360px;
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .container-wrapper {
@@ -484,7 +501,7 @@ a.main_nav_link {
 @media screen and (min-width: 540px) and (max-width: 767px) {
 
     .page {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .container-wrapper {
