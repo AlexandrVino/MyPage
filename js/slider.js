@@ -11,7 +11,7 @@ function base() {
     indexes = [indexes[indexes.length - 1], ...indexes.slice(0, -1)]
 
     let start_time = Date.now() // старт скрипта (чтобы не дать пользователю тыкать чаще, чем проходит анимация слайдера)
-    let screenWidth, koef, kost
+    let screenWidth, koef
 
     resizeWindow(0)
 
@@ -38,10 +38,10 @@ function base() {
 
             slides[indexes[i]].classList = 'slider'
             if (pos === 0) {
-                slides[indexes[i]].style.left = (i - 1) * koef + (screenWidth < 540 ? -260 : 0) + kost + 'px'
+                slides[indexes[i]].style.left = (i - 1) * koef + (screenWidth < 540 ? -260 : 0) + 'px'
             } else {
                 let start_pos = slides[indexes[i]].style.left.replace('px', '')
-                let end_pos = (i - 1) * koef + (screenWidth < 540 ? -260 : 0) + kost
+                let end_pos = (i - 1) * koef + (screenWidth < 540 ? -260 : 0)
                 animate(slides[indexes[i]], start_pos, end_pos)
             }
 
@@ -73,16 +73,16 @@ function base() {
     function resizeWindow(pos=1) {
 
         screenWidth = window.screen.width
-        koef = 767 < screenWidth && screenWidth < 1000 ? 220 : 270
-        kost = 767 < screenWidth && screenWidth < 1000 ? 10 : 5
 
+        // шаг для слайдера, в зависимости от экрана
         if (539 < screenWidth && screenWidth < 768) {
-            koef = 160
-            kost = -5
-        }
-
-        if (screenWidth < 540) {
-            kost = 0
+            koef = 150
+        } else if (767 < screenWidth && screenWidth < 1000) {
+            koef = 210
+        } else if (screenWidth > 1000) {
+            koef = 275
+        } else {
+            koef = 260
         }
 
         if (360 < screenWidth && screenWidth < 540) {
